@@ -261,9 +261,9 @@ header {
 
 /* principles */
 .set-principle {
-    display: flex;
+    display: block;
     width: calc((100% - 3 * 24px) / 4);
-    flex-direction: column;
+
 }
 
 
