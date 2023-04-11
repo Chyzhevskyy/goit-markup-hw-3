@@ -273,7 +273,6 @@ header {
 
 .princ-list {
     display: flex;
-    text-align: center;
     gap: 24px;
     padding-top: 123px;
     margin-bottom: 120px;
