@@ -263,7 +263,6 @@ header {
 .set-principle {
     display: block;
     width: calc((100% - 3 * 24px) / 4);
-
 }
 
 
@@ -273,8 +272,7 @@ header {
 
 .princ-list {
     display: flex;
-
-
+    gap: 24px;
 }
 
 .principles-item {
