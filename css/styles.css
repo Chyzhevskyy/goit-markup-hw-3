@@ -261,7 +261,7 @@ header {
 
 /* principles */
 .set-principle {
-    display: block;
+
     width: calc((100% - 72px) / 4);
 }
 
