@@ -274,8 +274,7 @@ header {
 .princ-list {
     display: flex;
     gap: 24px;
-    padding-top: 123px;
-    margin-bottom: 120px;
+
 }
 
 .principles-item {
