@@ -226,7 +226,7 @@ header {
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0px auto 48px auto;
-    padding-top: 191px;
+
 }
 
 .hero-button {
@@ -239,7 +239,6 @@ header {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    margin-bottom: 185px;
     margin-left: 500px;
     display: block;
     min-width: 169px;
@@ -262,6 +261,19 @@ header {
 }
 
 /* principles */
+.visualli-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .set-principle {
 
     width: calc((100% - 72px)/4);
@@ -339,7 +351,8 @@ header {
 
 .color-team-item {
     background-color: var(--white);
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -351,6 +364,7 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+
 
 }
 
@@ -374,7 +388,7 @@ header {
 
 .tem-cards {
     padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px;
+
 }
 
 /* Footer */
@@ -421,8 +435,7 @@ footer {
     color: var(--cloud);
     max-width: 264px;
     display: flex;
-    margin-bottom: 100px;
-    display: flex;
+
 
 }
 
@@ -434,6 +447,20 @@ footer {
 
 
 /* Portfolio */
+
+.visualli-hidden-hortfolio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .portfolio {
     padding: 96px 0 120px;
 }
@@ -450,10 +477,6 @@ footer {
 
 }
 
-.portfolio-wrapper {
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
 
 .button-filter-item {
     background-color: var(--cloud);
@@ -495,7 +518,6 @@ footer {
 }
 
 .set-item {
-    display: flex;
     width: calc((100% - 2*24px)/3);
 
 }
